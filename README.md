@@ -43,10 +43,15 @@
 </div>
 
 ###
-
 <br clear="both">
 
-<img data-importer="snake" src="https://raw.githubusercontent.com/joshikarthikeyan4-pixel/joshikarthikeyan4-pixel/snake-output/snake.svg" alt="Snake animation" />
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./profile/snake.svg">
+    <img src="./profile/snake.svg" alt="Snake animation" />
+  </picture>
+</div>
 
 ###
 
